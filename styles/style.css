@@ -14,10 +14,6 @@
   padding: 10px;
 }
 
-.header__theme-menu-button_active {
-  pointer-events: none;
-}
-
 .header__rec {
   position: absolute;
   top: 10px;
@@ -85,6 +81,7 @@ button {
 
 .header__theme-menu-button_active {
   outline: 1px solid var(--accent-color);
+  pointer-events: none;
 }
 
 .hero {
@@ -239,7 +236,7 @@ button {
   padding: 0 10px 0;
   display: flex;
   flex-direction: column;
-  flex: 1;
+  min-height: 100vh;
 }
 
 .footer__title {
