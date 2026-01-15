@@ -1,4 +1,8 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --accent-color: #ff0070;
+  --accent-title: #db00ff;
+  --accent-text: #000028;
+  --accent-allocation: rgba(255, 0, 112, 0.4);
+  --color-text: #f1b2ce;
+  --background-url: url(../images/cover-image-dark.png);
+}
