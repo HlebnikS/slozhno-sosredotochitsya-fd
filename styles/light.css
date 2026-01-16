@@ -1,20 +1,32 @@
 :root.theme-light {
-  --accent-color: #ff8dcb;
-  --accent-title: #ffc2e6;
+  --color-text-menu: #353430;
+  --color-accent: #ff8dcb;
+  --color-title: #ffc2e6;
+  --color-bd: #353430;
+  --color-focus: #353430;
+  --color-decor: #353430;
+  --color-cnt-title: #353430;
   --accent-text: #353430;
   --accent-allocation: rgba(50, 49, 45, 0.4);
   --color-text: #353430;
   --background-url: url(../images/cover-image-light.png);
+  --color-bg-page: #fff1f7;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --accent-color: #ff8dcb;
-    --accent-title: #ffc2e6;
+    --color-text-menu: #353430;
+    --color-accent: #ff8dcb;
+    --color-title: #ffc2e6;
+    --color-bd: #353430;
+    --color-focus: #353430;
+    --color-decor: #353430;
+    --color-cnt-title: #353430;
     --accent-text: #353430;
     --accent-allocation: rgba(50, 49, 45, 0.4);
     --color-text: #353430;
     --background-url: url(../images/cover-image-light.png);
+    --color-bg-page: #fff1f7;
   }
 
   .header__rec {
